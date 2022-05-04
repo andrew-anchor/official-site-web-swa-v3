@@ -1,0 +1,196 @@
+.mediaViewInfo {
+	--web-view-name: contact_us;
+	--web-view-id: contact_us;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: contact_us;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#contact_us {
+	position: absolute;
+	width: 1920px;
+	height: 1198px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: contact_us;
+	--web-view-id: contact_us;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Copyright {
+	left: 625px;
+	top: 1138px;
+	position: absolute;
+	overflow: visible;
+	width: 671px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -8px;
+	text-align: center;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 16px;
+	color: rgba(59,59,59,1);
+	letter-spacing: 1px;
+}
+#pic {
+	position: absolute;
+	width: 2000px;
+	height: 1048px;
+	left: 0px;
+	top: 70px;
+	overflow: visible;
+}
+#txt {
+	position: absolute;
+	width: 303px;
+	height: 82px;
+	left: 1064px;
+	top: 551px;
+	overflow: visible;
+}
+#txt_m {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 304px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(59,59,59,1);
+	letter-spacing: 3px;
+}
+#mail {
+	left: 0px;
+	top: 53px;
+	position: absolute;
+	overflow: visible;
+	width: 232px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(59,59,59,1);
+	letter-spacing: 1px;
+}
+#bar {
+	opacity: 0.553;
+	fill: rgba(0,0,0,1);
+}
+.bar {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+}
+#btn {
+	position: absolute;
+	width: 310px;
+	height: 24px;
+	left: 1405px;
+	top: 23px;
+	overflow: visible;
+}
+#btn_product {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 33px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: product.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.2px;
+}
+#btn_aboutus {
+	left: 107px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: about_us.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.2px;
+}
+#btn_contact {
+	left: 246px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.2px;
+}
+#logo {
+	fill: rgba(255,255,255,1);
+}
+.logo {
+	overflow: visible;
+	position: absolute;
+	width: 25px;
+	height: 28.872px;
+	left: 205px;
+	top: 20.564px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: front_page.html;
+	cursor: pointer;
+}

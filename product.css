@@ -1,0 +1,396 @@
+.mediaViewInfo {
+	--web-view-name: product;
+	--web-view-id: product;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: product;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#product {
+	position: absolute;
+	width: 1920px;
+	height: 2652px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: product;
+	--web-view-id: product;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Copyright {
+	left: 625px;
+	top: 2592px;
+	position: absolute;
+	overflow: visible;
+	width: 671px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -8px;
+	text-align: center;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 16px;
+	color: rgba(59,59,59,1);
+	letter-spacing: 1px;
+}
+#bg {
+	fill: rgba(248,248,248,1);
+}
+.bg {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1683px;
+	left: 0px;
+	top: 889px;
+}
+#txt1 {
+	position: absolute;
+	width: 682.733px;
+	height: 423.238px;
+	left: 1032.267px;
+	top: 246.762px;
+	overflow: visible;
+}
+#pic {
+	fill: rgba(255,255,255,1);
+}
+.pic {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 279.688px;
+	height: 400.477px;
+	left: 421.045px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#txt2-2 {
+	left: 56.889px;
+	top: 394.238px;
+	position: absolute;
+	overflow: visible;
+	width: 461px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(59,59,59,1);
+	letter-spacing: 1px;
+}
+#txt2-1 {
+	left: 56.889px;
+	top: 339.238px;
+	position: absolute;
+	overflow: visible;
+	width: 148px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(59,59,59,1);
+	letter-spacing: 3px;
+}
+#txt1-2 {
+	left: 55.889px;
+	top: 238.238px;
+	position: absolute;
+	overflow: visible;
+	width: 351px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(59,59,59,1);
+	letter-spacing: 1px;
+}
+#txt1-1 {
+	left: 56.889px;
+	top: 183.238px;
+	position: absolute;
+	overflow: visible;
+	width: 148px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(59,59,59,1);
+	letter-spacing: 3px;
+}
+#icon2 {
+	position: absolute;
+	width: 25.5px;
+	height: 30px;
+	left: 2.139px;
+	top: 346.738px;
+	overflow: visible;
+}
+#Paper {
+	position: absolute;
+	width: 25.5px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_190 {
+	fill: rgba(59,59,59,1);
+}
+.Path_190 {
+	overflow: visible;
+	position: absolute;
+	width: 25.5px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#icon1 {
+	position: absolute;
+	width: 27.778px;
+	height: 25px;
+	left: 0px;
+	top: 193.238px;
+	overflow: visible;
+}
+#Wallet {
+	position: absolute;
+	width: 27.778px;
+	height: 25px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_191 {
+	fill: rgba(59,59,59,1);
+}
+.Path_191 {
+	overflow: visible;
+	position: absolute;
+	width: 27.778px;
+	height: 25px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#hand {
+	position: absolute;
+	width: 956px;
+	height: 889px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#txt3 {
+	position: absolute;
+	width: 625.37px;
+	height: 414.042px;
+	left: 205px;
+	top: 1992.458px;
+	overflow: visible;
+}
+#pic_z {
+	fill: rgba(248,248,248,1);
+}
+.pic_z {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 530.87px;
+	height: 432.042px;
+	left: 112.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#txt3-2 {
+	left: 57px;
+	top: 70.542px;
+	position: absolute;
+	overflow: visible;
+	width: 214px;
+	white-space: nowrap;
+	line-height: 32px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(59,59,59,1);
+	letter-spacing: 1px;
+}
+#txt3-1 {
+	left: 57px;
+	top: 15.542px;
+	position: absolute;
+	overflow: visible;
+	width: 112px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(59,59,59,1);
+}
+#icon3 {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 0px;
+	top: 23.042px;
+	overflow: visible;
+}
+#Time-Circle {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_189 {
+	fill: rgba(59,59,59,1);
+}
+.Path_189 {
+	overflow: visible;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#apple {
+	position: absolute;
+	width: 1826px;
+	height: 1795px;
+	left: 147px;
+	top: 704px;
+	overflow: visible;
+}
+#bar {
+	opacity: 0.553;
+	fill: rgba(0,0,0,1);
+}
+.bar {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+}
+#btn {
+	position: absolute;
+	width: 310px;
+	height: 24px;
+	left: 1405px;
+	top: 23px;
+	overflow: visible;
+}
+#btn_product {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 33px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.2px;
+}
+#btn_aboutus {
+	left: 107px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: about_us.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.2px;
+}
+#btn_contactus {
+	left: 246px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: contact_us.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Noto Sans CJK TC;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.2px;
+}
+#logo {
+	fill: rgba(255,255,255,1);
+}
+.logo {
+	overflow: visible;
+	position: absolute;
+	width: 25px;
+	height: 28.872px;
+	left: 205px;
+	top: 20.564px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: front_page.html;
+	cursor: pointer;
+}
